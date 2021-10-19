@@ -23,6 +23,9 @@ $(function(){
       $('.burger-btn').click();
     }
   });
+  
+  // リロードしたときにページのトップに来るように指示
+  $('html,body').animate({ scrollTop: 0 }, '1');
 
   // ヘッダーの固定
   var $win = $(window),
