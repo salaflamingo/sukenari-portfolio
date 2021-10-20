@@ -7,6 +7,7 @@ body {
   font-family: 'Helvetica','Yu Gothic';
   color: #333;
   box-sizing: border-box;
+  --my-color:#e0c1d1;
 }
 img {
   width: 100%;
@@ -29,7 +30,7 @@ a:hover {
 .section-title {
   font-size: 2.6rem;
   font-weight: bold;
-  background-color: #e95295;
+  background-color: var(--my-color);
   color: #fff;
   width: 220px;
   height: 40px;
@@ -83,7 +84,7 @@ button {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #e95295;
+  background-color: var(--my-color);
   z-index: 1;
 }
 .header-container {
@@ -137,7 +138,7 @@ button {
 }
 .header.fixed {
   position: fixed;
-  background-color: rgb(233, 82, 149, .8);
+  background-color: rgb(224, 193, 209, .8);
   transition: .3s;
 }
 /* ファーストビュー */
@@ -169,7 +170,7 @@ button {
   position: fixed;
   right: 0;
   bottom: 0;
-  background: #e95295;
+  background: var(--my-color);
   border-radius: 50%;
   z-index: 3;
 }
@@ -320,7 +321,7 @@ button {
   padding-top: 15px;
   text-align: center;
   color: #fff;
-  background-color: #e95295;
+  background-color: var(--my-color);
   border-radius: 50%;
 }
 .works-text a {
@@ -362,13 +363,13 @@ button {
 }
 .footer-nav-list {
   padding: 0 10px;
-  border-left: 1px solid #e95295;
+  border-left: 1px solid var(--my-color);
 }
 .footer-nav-list:last-child {
-  border-right: 1px solid #e95295;
+  border-right: 1px solid var(--my-color);
 }
 .footer-nav-list a {
-  color: #e95295;
+  color: var(--my-color);
 }
 .footer-container p {
   font-size: 1.2rem;
@@ -389,7 +390,7 @@ button {
     top: 0;
     right: 0;
     z-index: 2;
-    background-color: rgb(233, 83, 151,.8);
+    background-color: rgb(224, 193, 209, .8);
   }
   .nav-list {
     flex-direction: column;
